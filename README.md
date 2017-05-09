@@ -3,7 +3,7 @@
 
 Esta es una API que se recogen los clics del ratón. Si los clics forman un triángulo, entonces se calcula el área. Lo mismo ocurrirá con un cuadrado.
 
-##Pasos
+## Pasos
 
 La aplicación consiste en una página HTML, cargando un script JS que hará lo siguiente:
 
@@ -33,20 +33,6 @@ _Hint: _isosceles = (b == c || a == b || c == a))? verdadero Falso;
 
 Importante: No use AJAX para este ejercicio
 
-
-
-## Cómo ejecutar
-
-`Python server.py`
-
-## Subir a heroku
-El proyecto incluye `Procfile`; Prácticamente todo lo que se necesita hacer es comentar la configuración de registro en `server.py` o crear el archivo` server.log` antes de ejecutar un git push a su repositorio ** heroku **.
-
-## Requisitos
-* Python 2.7 o 3.6
-Frasco
-* Un navegador (para sus pruebas)
-
 ## URL de prueba
 
 * URL válida: `https://localhost:5000/triangle?area=3353&type=other&points=W1szNDIsODBdLFszNjIsMjldLFs0NjgsOTRdXQ==`
@@ -55,4 +41,4 @@ Los puntos son una matriz de N puntos codificados a base64.
 
 Ejemplo
 
-```b'[[342,80],[362,29],[468,94]]' encoded ==> /triangle?area=3353&type=other&points=W1szNDIsODBdLFszNjIsMjldLFs0NjgsOTRdXQ==``
+`b'[[342,80],[362,29],[468,94]]' encoded ==> /triangle?area=3353&type=other&points=W1szNDIsODBdLFszNjIsMjldLFs0NjgsOTRdXQ==`
